@@ -1976,7 +1976,7 @@
     (property "Value" "EMPCB.SMAFSTJ.B.HT" (at 226.06 37.719 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "EMPCB.SMAFSTJ.B.HT:TAOGLAS_EMPCB.SMAFSTJ.B.HT" (at 220.98 36.83 0)
+    (property "Footprint" "footprints:TAOGLAS_EMPCB.SMAFSTJ.B.HT" (at 220.98 36.83 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 220.98 36.83 0)
@@ -2104,7 +2104,7 @@
   (symbol (lib_id "Connector:Conn_01x07_Pin") (at 168.91 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eca294fb-6dd4-4ac2-af91-847c92d85864)
-    (property "Reference" "J4" (at 169.545 99.06 0)
+    (property "Reference" "J1" (at 169.545 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x07_Pin" (at 169.545 101.6 0)
@@ -2126,7 +2126,7 @@
     (instances
       (project "GS_LPC_RadioBoard"
         (path "/0c275095-00c0-41ae-b08c-e5453f1b3f88"
-          (reference "J4") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
